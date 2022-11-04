@@ -21,7 +21,7 @@ public class 三角形最小路径和120 {
         }
         int ans = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++) {
-            ans = Math.min(ans, p[n - 1][i]);
+            ans = Math.min(ans, dp[n - 1][i]);
         }
         return ans;
     }
