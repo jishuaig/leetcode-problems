@@ -4,6 +4,10 @@ public class 不同路径II63 {
 
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
 
+        if (obstacleGrid == null || obstacleGrid.length == 0 || obstacleGrid[0].length == 0) {
+            return 0;
+        }
+
         int m = obstacleGrid.length;
         int n = obstacleGrid[0].length;
 
