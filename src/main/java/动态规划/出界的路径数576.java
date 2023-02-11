@@ -1,7 +1,5 @@
 package 动态规划;
 
-import java.util.Arrays;
-
 public class 出界的路径数576 {
 
     int[][][] cache; // 当前位置i，j, 剩余次数为maxMove 路径数量
