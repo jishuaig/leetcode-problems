@@ -1,0 +1,105 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "leetcode-problems-test",
+        "directory": "/Users/admin/git/leetcode-problems",
+        "workspaceDir": "/Users/admin/git/leetcode-problems",
+        "sources": [
+            
+        ],
+        "dependencies": [
+            "leetcode-problems"
+        ],
+        "classpath": [
+            "/Users/admin/git/leetcode-problems/target/test-classes",
+            "/Users/admin/git/leetcode-problems/target/classes"
+        ],
+        "out": "/Users/admin/git/leetcode-problems/target",
+        "classesDir": "/Users/admin/git/leetcode-problems/target/test-classes",
+        "resources": [
+            "/Users/admin/git/leetcode-problems/src/test/resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

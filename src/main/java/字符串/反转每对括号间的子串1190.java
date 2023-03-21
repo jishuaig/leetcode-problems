@@ -30,8 +30,20 @@ public class 反转每对括号间的子串1190 {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        System.out.println(new 反转每对括号间的子串1190().reverseParentheses("(u(love)i)"));
+    public void testReverseParentheses(){
+        System.out.println(reverseParentheses("(abcd)"));
+        System.out.println(reverseParentheses("(u(love)i)"));
+        System.out.println(reverseParentheses("(ed(et(oc))el)"));
+        System.out.println(reverseParentheses("a(bcdefghijkl(mno)p)q"));
     }
+
+    public static void main(String[] args) {
+        new 反转每对括号间的子串1190().testReverseParentheses();
+    }
+
+
+
+
+
 
 }
