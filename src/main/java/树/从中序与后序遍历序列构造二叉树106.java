@@ -7,7 +7,6 @@ public class 从中序与后序遍历序列构造二叉树106 {
 
     private Map<Integer, Integer> map;
     private int rootIdx;
-    private int[] in;
     private int[] post;
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {

@@ -1,7 +1,4 @@
 package 多线程;
-
-import java.util.concurrent.Semaphore;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.IntConsumer;
 
 public class 交替打印字符串1195 {

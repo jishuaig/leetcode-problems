@@ -12,7 +12,6 @@ public class ProducerAndConsumer {
     private static Condition full = lock.newCondition();
 
     static class ProducerTask2 implements Runnable {
-        private volatile int size = 10;
         private volatile int count = 0;
         private LinkedList<Integer> list;
 
@@ -44,8 +43,6 @@ public class ProducerAndConsumer {
     }
 
     static class ConsumerTask2 implements Runnable {
-        private volatile int size = 10;
-        private volatile int count = 0;
         private LinkedList<Integer> list;
 
 
@@ -75,7 +72,7 @@ public class ProducerAndConsumer {
     }
 
     static class ProducerTask implements Runnable {
-        private volatile int size = 10;
+
         private volatile int count = 0;
         private LinkedList<Integer> list;
 
@@ -104,8 +101,6 @@ public class ProducerAndConsumer {
     }
 
     static class ConsumerTask implements Runnable {
-        private volatile int size = 10;
-        private volatile int count = 0;
         private LinkedList<Integer> list;
 
         public ConsumerTask(LinkedList<Integer> list) {

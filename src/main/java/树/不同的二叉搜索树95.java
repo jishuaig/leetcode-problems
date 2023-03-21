@@ -25,7 +25,6 @@
 package 树;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class 不同的二叉搜索树95 {
