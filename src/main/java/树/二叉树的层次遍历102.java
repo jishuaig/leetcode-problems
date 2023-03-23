@@ -26,4 +26,14 @@ public class 二叉树的层次遍历102 {
         return result;
     }
 
+    public static void main(String[] args) {
+        二叉树的层次遍历102 s = new 二叉树的层次遍历102();
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(9);
+        root.right = new TreeNode(20);
+        root.right.left = new TreeNode(15);
+        root.right.right = new TreeNode(7);
+        System.out.println(s.levelOrder(root));
+    }
+
 }
