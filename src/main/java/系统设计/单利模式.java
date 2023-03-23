@@ -1,7 +1,5 @@
 package 系统设计;
 
-import java.util.concurrent.Callable;
-
 public class 单利模式 {
 
     static class Singleton {
@@ -20,16 +18,6 @@ public class 单利模式 {
             }
             return instance;
         }
-    }
-
-
-    public static void main(String[] args) {
-        Callable<Singleton> callable = new Callable<Singleton>() {
-            @Override
-            public Singleton call() throws Exception {
-                return Singleton.getInstance();
-            }
-        };
     }
 
 }
