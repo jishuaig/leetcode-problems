@@ -1,5 +1,7 @@
 package 链表;
 
+import base.ListNode;
+
 public class 反转链表206 {
 
     public ListNode reverseList(ListNode head) {

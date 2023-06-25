@@ -1,5 +1,7 @@
 package 树;
 
+import base.TreeNode;
+
 public class 平衡二叉树110 {
 
     public boolean isBalanced(TreeNode root) {

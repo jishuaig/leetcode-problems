@@ -1,5 +1,7 @@
 package 链表;
 
+import base.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

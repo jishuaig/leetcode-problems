@@ -1,5 +1,7 @@
 package 树;
 
+import base.TreeNode;
+
 import java.util.ArrayDeque;
 
 public class 序列化和反序列化二叉搜索树449 {

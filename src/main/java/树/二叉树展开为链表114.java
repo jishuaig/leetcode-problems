@@ -1,5 +1,7 @@
 package 树;
 
+import base.TreeNode;
+
 /**
  * 给定一个二叉树，原地将它展开为链表。
  *

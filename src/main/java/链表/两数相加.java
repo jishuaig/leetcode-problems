@@ -1,5 +1,7 @@
 package 链表;
 
+import base.ListNode;
+
 public class 两数相加 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);

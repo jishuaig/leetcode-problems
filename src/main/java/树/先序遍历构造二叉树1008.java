@@ -1,5 +1,7 @@
 package 树;
 
+import base.TreeNode;
+
 public class 先序遍历构造二叉树1008 {
 
     public TreeNode bstFromPreorder(int[] preorder) {

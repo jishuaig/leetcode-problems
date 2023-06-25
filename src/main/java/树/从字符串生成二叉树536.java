@@ -1,5 +1,7 @@
 package 树;
 
+import base.TreeNode;
+
 public class 从字符串生成二叉树536 {
 
     public TreeNode str2tree(String s) {

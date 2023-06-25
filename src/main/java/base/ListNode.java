@@ -1,4 +1,4 @@
-package 链表;
+package base;
 
 public class ListNode {
     public int val;

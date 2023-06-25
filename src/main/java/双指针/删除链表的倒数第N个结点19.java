@@ -1,6 +1,6 @@
 package 双指针;
 
-import 链表.ListNode;
+import base.ListNode;
 
 public class 删除链表的倒数第N个结点19 {
 
