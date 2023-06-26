@@ -4,7 +4,7 @@ public class 背包01 {
 
     // v体积 ， w价值， N物品数量，C背包容量
     public int maxValue(int[] v, int[] w, int N, int C) {
-        int[][] dp = new int[N][C + 1]; // 使用当前物品i背包容量不超过C的最大价值
+        int[][] dp = new int[N][C + 1]; // 使用前i个物品背包容量不超过C的最大价值
         for (int i = 0; i <= C; i++) {
             dp[0][i] = i >= w[i] ? w[i] : 0;
         }
